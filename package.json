@@ -1,0 +1,21 @@
+{
+  "name": "api_manager",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "Casey Wang <caseywang@httpeace.com>",
+  "license": "ISC",
+  "repository": "https://github.com/casey1991/api_manager.git",
+  "dependencies": {
+    "apisauce": "^0.15.2",
+    "js-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.14.0",
+    "webpack-cli": "^3.0.8"
+  }
+}
